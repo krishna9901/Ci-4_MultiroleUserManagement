@@ -1,0 +1,170 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Rest of the CSS rules go here */
+
+@media(max-width:768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0px;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+
+.topbar .nav-item .nav-link {
+    height: auto ! important;
+}
+
+.d-grid {
+    padding-bottom: 4px ! important;
+    padding-top: 4px ! important;
+    color:#fff;
+    font-size:10px;
+}
+
+
+
+.login-frm {
+
+    margin-top: 100px;
+    
+}
+
+.logim-frm, h2{
+    color:#fff;
+}
+
+.login-img {
+
+    margin-top: 90px;
+   
+
+}
+
+.bg-color{
+   
+    background-color:#7712eb;
+}
+.nav-item {
+    color:#fff ! important;
+}
+.vertical {
+    border-left: 6px solid blue;
+    height: 200px;
+    position:absolute;
+    left: 50%;
+  }
+
+  .pagination li a
+{
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.pagination li.active a {
+    z-index: 1;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+
+.card-header {
+  background-color: #4e73df ! important;
+color: #fff ! important;
+}
+
+.copyright {
+    color:Black ! important;
+}
+
+#toolbarContainer{
+    display:none;
+}
+
+.panel-heading{
+    font-size:30px;
+    color: #fff;
+}
+.panel-body , form, label{
+    color:#fff;
+    font-size:20px;
+}
+
+
+.errors{
+    font-size: 17px;
+}
+
+label {
+    color:#201d1d;
+}
+
+/* #qtn-tble .col-md-1 ,td {
+    max-width: 20px ! important;
+} */
+
+@media (min-width: 768px){
+#qtn-tble , .col-md-1 {
+     max-width: 7.33333% ! important;
+}
+}
+#qtn-tble ,table{
+    min-width: -webkit-fill-available ! important;
+}
+
+table {
+    border-collapse: collapse; /* Ensure that adjacent cells share borders */
+}
+
+/* Horizontal border color */
+
+.table td, .table th {
+    padding-top: 0.02rem ! important;
+}
+
+#Client-tbl, .table td, .table th {
+    padding-top: 0.5rem ! important;
+    font-size: 13px;
+}
+#client-qtntble,.table td, .table th {
+    padding-top: 0.02rem ! important;
+    font-size: 16px;
+}

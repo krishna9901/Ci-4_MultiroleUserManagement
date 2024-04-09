@@ -1,0 +1,26 @@
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    font-size: 14px;
+    color: #333;
+}
+.tbl-header{
+    color:#4e73df;
+}
+
+.usr-align{
+    float:right;
+}
+.usr-align,span{
+  
+   color:#36b9cc;
+}
+
+.usr-align .label-cls{
+    color:black;
+    
+}
